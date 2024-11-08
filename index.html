@@ -51,10 +51,11 @@
           <br>
           <!-- NavBar Section 2 -->
           <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+            <li class="nav-item"><a href="#Home" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#About" class="nav-link">About Us</a></li>
+            <li class="nav-item"><a href="#Products" class="nav-link">Products</a></li>
+            <li class="nav-item"><a href="#Contact" class="nav-link">Contact Us</a></li>
+            <!-- id the pages, then link on the navbar. Don't forget the # -->
           </ul>
           <!-- 3.Ideally you must use one header/nav bar but for the purpose of learning, I've also added 
  the Navbar below the first one (Examples, Snippets, Header, choose the one you want,
@@ -63,9 +64,10 @@
       </div>
 
       <br>
-      <!-- Hero Space Section  -->
+      <!-- Home Section  -->
        <!-- 4. Examples, Snippets, Heros, Choose code then edit as desired. line 58-71-->
-       <div class="container my-5">
+       <div id="Home" class="container my-5"> 
+        <!-- To link the pages on the Navbar, make sure you id the div -->
         <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
           <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
             <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Welcome to <br>Diamond Tech</h1>
@@ -83,7 +85,8 @@
       <!-- About Us Section -->
        <!-- Examples, Snippets, Products, Choose code and edit line76-89-->
 
-       <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
+       <div id="About" class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
+       <!-- To link the pages on the Navbar, make sure you id the div -->
         <div class="col-md-6 p-lg-5 mx-auto my-5">
           <h1 class="display-3 fw-bold">About Us</h1>
           <h3 class="fw-normal text-muted mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, veniam aliquam doloremque vitae reprehenderit, saepe dolores, quasi nihil officia distinctio accusantium officiis. Ipsam dolor nobis a tempore magni et ipsum.</h3>
@@ -97,9 +100,11 @@
         <div class="product-device shadow-sm d-none d-md-block"></div>
         <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
       </div>
+
       <!-- Our Products Section -->
 <!--Examples, Snippets, Featured, Choose code and edit -->
-<div class="container px-4 py-5" id="featured-3">
+<div id="Products"  class="container px-4 py-5" id="featured-3">
+    <!-- To link the pages on the Navbar, make sure you id the div -->
     <h2 class="pb-2 border-bottom">Products</h2>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
         
@@ -130,7 +135,8 @@
       </div>
 
       <!-- Contact Us Section -->
-      <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+      <div id="Contact" class="container col-xl-10 col-xxl-8 px-4 py-5">
+        <!-- To link the pages on the Navbar, make sure you id the div -->
         <div class="row align-items-center g-lg-5 py-5">
           <div class="col-lg-7 text-center text-lg-start">
             <h2 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Contact Us</h2>
